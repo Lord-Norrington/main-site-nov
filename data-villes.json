@@ -2,7 +2,7 @@
   {
     "nom": "Rovère-sur-Lys",
     "isCapitale": true,
-    "maire": "Nom du Maire de Rovère",
+    "maire": "Hélène DELACROIX",
     "population": "6 000 000 habitants",
     "carte": "carte-rovere.jpg",
     "blason": "blason-rovere.png",
@@ -11,8 +11,8 @@
   {
     "nom": "Édimbourg",
     "isCapitale": false,
-    "maire": "Nom du Maire d'Édimbourg",
-    "population": "2 500 000 habitants",
+    "maire": "Lord Alaric de LYSANGE",
+    "population": "1 500 000 habitants",
     "carte": "carte-edimbourg.jpg",
     "blason": "blason-edimbourg.png",
     "description": "Cité culturelle et historique majeure du Royaume."
@@ -20,17 +20,17 @@
   {
     "nom": "Windsor",
     "isCapitale": false,
-    "maire": "Nom du Maire de Windsor",
-    "population": "1 800 000 habitants",
+    "maire": "Pas de Mandat en cours",
+    "population": "45 000 habitants",
     "carte": "carte-windsor.jpg",
     "blason": "blason-windsor.png",
-    "description": "Cité royale accueillant les résidences de la Couronne."
+    "description": "Cité royale et commerciale de la Couronne."
   },
   {
     "nom": "Far Vegas",
     "isCapitale": false,
-    "maire": "Nom du Maire de Far Vegas",
-    "population": "3 100 000 habitants",
+    "maire": "Pas de Mandat en cours",
+    "population": "1 100 000 habitants",
     "carte": "carte-farvegas.jpg",
     "blason": "blason-farvegas.png",
     "description": "Grand centre économique et de divertissement."
@@ -38,19 +38,19 @@
   {
     "nom": "Villefort",
     "isCapitale": false,
-    "maire": "Nom du Maire de Villefort",
-    "population": "1 200 000 habitants",
+    "maire": "Pas de Mandat en cours",
+    "population": "12 000 habitants",
     "carte": "carte-villefort.jpg",
     "blason": "blason-villefort.png",
-    "description": "Place forte industrielle et maritime du territoire."
+    "description": "Petite ville calme de province dans le duché de Rovère"
   },
   {
     "nom": "Konigsberg",
     "isCapitale": false,
-    "maire": "Nom du Maire de Konigsberg",
+    "maire": "Pas de Mandat en cours",
     "population": "2 000 000 habitants",
     "carte": "carte-konigsberg.jpg",
     "blason": "blason-konigsberg.png",
-    "description": "Carrefour commercial et universitaire d'importance stratégique."
+    "description": "Carrefour commercial et universitaire d'importance stratégique sur le continent."
   }
 ]
