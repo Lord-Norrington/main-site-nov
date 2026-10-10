@@ -1,0 +1,82 @@
+[
+  {
+    "nom": "Maison de Lysange",
+    "titre_principal": "Maison Princière",
+    "blason": "blason-lysange.png",
+    "titulaire_actuel": "S.A.S. le Prince de Lysange",
+    "date_fondation": "1215",
+    "titres": "Prince de Lysange, Duc et Pair de Novarcis",
+    "premier_titulaire": "Gaucher Ier de Lysange",
+    "histoire": "Histoire et origines illustres de la Maison de Lysange..."
+  },
+  {
+    "nom": "Maison d'Auron",
+    "titre_principal": "Maison Ducale",
+    "blason": "blason-auron.png",
+    "titulaire_actuel": "Le Duc d'Auron",
+    "date_fondation": "1340",
+    "titres": "Duc d'Auron, Marquis de la Lys",
+    "premier_titulaire": "Henri Ier d'Auron",
+    "histoire": "Histoire de la Maison d'Auron..."
+  },
+  {
+    "nom": "Maison de Rovère",
+    "titre_principal": "Maison Ducale",
+    "blason": "blason-rovere-maison.png",
+    "titulaire_actuel": "Le Duc de Rovère",
+    "date_fondation": "1180",
+    "titres": "Duc de Rovère, Comte de la Capitale",
+    "premier_titulaire": "Barthélemy de Rovère",
+    "histoire": "Histoire de la Maison de Rovère..."
+  },
+  {
+    "nom": "Maison Dudarov",
+    "titre_principal": "Maison Comtale",
+    "blason": "blason-dudarov.png",
+    "titulaire_actuel": "Le Comte Dudarov",
+    "date_fondation": "1452",
+    "titres": "Comte Dudarov",
+    "premier_titulaire": "Alexis Dudarov",
+    "histoire": "Histoire de la Maison Dudarov..."
+  },
+  {
+    "nom": "Maison d'Autriche",
+    "titre_principal": "Maison Archiducale",
+    "blason": "blason-autriche.png",
+    "titulaire_actuel": "L'Archiduc de Novarcis",
+    "date_fondation": "1278",
+    "titres": "Archiduc, Prince Souverain",
+    "premier_titulaire": "Rodolphe Ier",
+    "histoire": "Histoire de la branche novarcienne..."
+  },
+  {
+    "nom": "Maison de Hongrie",
+    "titre_principal": "Maison Royale",
+    "blason": "blason-hongrie.png",
+    "titulaire_actuel": "Le Prince de Hongrie",
+    "date_fondation": "1000",
+    "titres": "Prince Consort, Comte Palatin",
+    "premier_titulaire": "Étienne Ier",
+    "histoire": "Origines de la Maison de Hongrie..."
+  },
+  {
+    "nom": "Famille de Bardfield",
+    "titre_principal": "Maison Baronniale",
+    "blason": "blason-bardfield.png",
+    "titulaire_actuel": "Lord Bardfield",
+    "date_fondation": "1510",
+    "titres": "Baron de Bardfield",
+    "premier_titulaire": "Arthur Bardfield",
+    "histoire": "Histoire de la Famille de Bardfield..."
+  },
+  {
+    "nom": "Famille de Montmorency",
+    "titre_principal": "Maison Ducale",
+    "blason": "blason-montmorency.png",
+    "titulaire_actuel": "Le Duc de Montmorency",
+    "date_fondation": "1060",
+    "titres": "Premier Baron Chrétien, Duc de Montmorency",
+    "premier_titulaire": "Bouchard Ier",
+    "histoire": "Histoire de la Famille de Montmorency..."
+  }
+]
