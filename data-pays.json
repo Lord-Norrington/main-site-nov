@@ -19,8 +19,8 @@
     "dette_publique": "82,5 % du PIB"
   },
   "finances_publiques": {
-    "Dette Publique": 82.5,
-    "Marge Budgétaire": 17.5
+    "Dette Publique": 72.5,
+    "Marge Budgétaire": 27.5
   },
   "militaire": {
     "budget": "160 Mds ₵ (207 Mds $)",
@@ -43,7 +43,7 @@
     "Agriculture": 3.6
   },
   "energie": {
-    "part_nucleaire": 42
+    "part_nucleaire": 52
   },
   "secteurs_strategiques": [
     "Finance", "Aéronautique", "Automobile", "Défense", "Nucléaire civil & militaire", "Pharmacie", "Technologies & Ingénierie"
