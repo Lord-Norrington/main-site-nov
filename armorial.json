@@ -7,9 +7,9 @@
     "blason": "blason-rovere-maison.png",
     "titulaire_actuel": "James Ier de Rovère",
     "date_fondation": "800",
-    "titres": "Roi de Novarcis, Duc de Rovère, Empereur des Britannique, Prince Royal de France",
+    "titres": "Roi de Novarcis, Duc de Rovère, Comte de Dunvarn, Empereur des Britannique, Prince Royal de France",
     "premier_titulaire": "Aldric Ier de Rovère",
-    "histoire": "Histoire de la Maison de Rovère..."
+    "histoire": "La maison de Rovère trouve ses origines en l'an 800, lorsque l'empereur Charlemagne confie le duché de Rovère, un territoire central et méridional s'étendant sur le sud des îles britanniques, à son fidèle seigneur franc Aldric $\text{I}^{\text{er}}$ en récompense de ses conquêtes. S'installant sur les hauteurs de Rovère-sur-Lys, le premier duc pose les bases d'une puissante lignée de bâtisseurs, de marins et de diplomates qui façonneront le destin des îles du nord au fil des siècles. Le tournant majeur intervient le 19 octobre 1653 lors du traité d'Union mené par Antoine VI : les duchés voisins d'Auron et de Lysange reconnaissent la suzeraineté des Rovère pour donner naissance au Royaume Uni de Novarcis. La famille accède ainsi au trône royal, s'installant au Palais de Downton tout en permettant aux autres entités historiques de conserver leurs prérogatives administratives. Au cours du $\text{XX}^\text{e}$ siècle, à la suite d'une absence de descendance mâle directe, la couronne se transmet par les femmes. Alexandre de Bourbon, prince de la maison de Bourbon et fils cadet du roi de France de l'époque, épouse Eleonora de Rovère, fille unique du roi Théophile II. De cette union naît Louise-Auguste. Plus tard, en raison de nouvelles transmissions dynastiques et face à l'absence d'héritier direct, la régente du pays, sa fille Louise-Auguste, qui dirige le royaume avec fermeté durant dix-sept ans, épouse le noble lysangeois Lord Eugène Norrington, comte de Dunvarn. De cette union naît le roi Théodore III, scellant l'avènement de la maison Norrington-Bourbon-Rovère qui perpétue aujourd'hui la couronne de Novarcis sous le règne de James $\text{I}^{\text{er}}$"
   },
   {
     "nom": "Maison de Lysange",
@@ -29,7 +29,7 @@
     "date_fondation": "800",
     "titres": "Duc d'Auron",
     "premier_titulaire": "Chilpéric Ier d'Auron",
-    "histoire": "Le duché d’Auron, situé à l’ouest et au sud-ouest des îles novarciennes, est l’un des trois grands duchés historiques du royaume de Novarcis. Fondé en l’an 800 suite au don de Charlemagne, il constitue un pilier historique de la monarchie novarcienne, aux côtés des duchés de Rovère et du Grand-Duché de Lysange. Terre de tradition maritime et d’héritage celtique, Auron a développé au fil des siècles une identité singulière, marquée par son attachement à ses coutumes, à ses institutions ducales et à la Couronne. La maison du Plessis de Richelieu est liée à l’histoire du duché par la branche d’Auron, dont l’ascension est associée aux services rendus au souverain. Son titulaire actuel, Armand Jean du Plessis de Richelieu, perpétue cet héritage historique et la tradition de fidélité de sa maison envers le royaume de Novarcis."
+    "histoire": "La famille reigne sur le duché d’Auron, situé à l’ouest et au sud-ouest des îles britanniques, qui est l’un des trois grands duchés historiques du Royaume Uni de Novarcis. Fondé en l’an 800 suite au don de Charlemagne. Il constitue un pilier historique de la monarchie novarcienne suite au traité de 1653, aux côtés des duchés de Rovère et du Grand-Duché de Lysange. Terre de tradition maritime et d’héritage celtique, Auron a développé au fil des siècles une identité singulière, marquée par son attachement à ses coutumes, à ses institutions ducales et à la Couronne. La maison du Plessis de Richelieu est liée à l’histoire du duché par la branche d’Auron, dont l’ascension est associée aux services rendus au souverain. Son titulaire actuel, Armand Jean du Plessis de Richelieu, perpétue cet héritage historique et la tradition de fidélité de sa maison envers le royaume de Novarcis."
   },
  
   {
@@ -40,7 +40,7 @@
     "date_fondation": "1534",
     "titres": "Grand duc de Brundberg, Comte de Villefort",
     "premier_titulaire": "Ivan de Novgorode",
-    "histoire": "Histoire de la Maison Dudarov..."
+    "histoire": "La maison Dudarov puise ses racines dans l'Orient slave en 1534, lorsque le duc Ivan, duc de Novgorod, fonde la lignée pour asseoir sa puissance foncière et militaire. Grandie à l'ombre du Kremlin, la dynastie voit ses premiers destins scellés par la géopolitique des steppes et de la mer Noire : en 1783, un remaniement diplomatique lui fait perdre son apanage initial au profit du titre de duc de Crimée. Contraints au repli stratégique vers l'Ouest, les Dudarov s'implantent au cœur du continent. Dès 1815, dans le sillage de la réorganisation de l'Europe post-napoléonienne, la couronne ducale glisse cette fois vers le titre de duc de Brundberg, intégrant la famille à la haute noblesse germanique. Pendant plus de deux siècles, les Dudarov incarnent la synthèse de la rigueur brundbergeoise et de l'héritage d'Ivan. Le tournant majeur survient en 2026 : le traité historique unissant le duché de Brundberg au Royaume Uni de Novarcis redessine les équilibres du royaume. En renonçant à leur ancien titre ducal, les Dudarov accèdent au rang supérieur de grands-ducs de Brundberg, affirmant leur rang parmi les plus grands pairs novarciens."
   },
   {
     "nom": "Maison d'Autriche",
@@ -77,9 +77,9 @@
     "titre_principal": "Maison Ducale",
     "blason": "blason-montmorency.png",
     "titulaire_actuel": "Aurora-Julietta de Montmorency",
-    "date_fondation": "XXXX",
+    "date_fondation": "960",
     "titres": "Duc de Montmorency",
-    "premier_titulaire": "XXXX",
-    "histoire": "Histoire de la Famille de Montmorency..."
+    "premier_titulaire": "Bouchard Ier de Bray",
+    "histoire": "La maison de Montmorency trouve ses origines à l'aube de la féodalité, s'imposant dès le Xe siècle comme l'une des plus illustres dynasties du royaume de France. Surnommés « premiers barons chrétiens », les Montmorency lient indéfectiblement leur destin à la Couronne capétienne, s'illustrant sur les champs de bataille et dans la très haute administration du royaume à travers le titre prestigieux de connétable.Au fil des siècles, la lignée accumule terres, duchés et alliances prestigieuses, devenant une puissance incontournable en Île-de-France et en Europe. Son prestige culmine à la Renaissance avec Anne de Montmorency, grand maître et connétable de France, qui assoit définitivement le statut quasi-princier de sa famille.En traversant les crises politiques, les guerres de Religion et les remaniements de la haute noblesse européenne, les diverses branches de la maison perpétuent un héritage militaire et politique exceptionnel. Aujourd'hui encore, le nom de Montmorency demeure le symbole de la première noblesse française et de la fidélité aux institutions monarchiques."
   }
 ]
