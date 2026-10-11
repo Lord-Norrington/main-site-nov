@@ -142,6 +142,9 @@
       padding: 15px;
       border-radius: 4px;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     .stat-number { font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; color: var(--bordeaux-navy); margin-top: 5px; }
     .stat-label { font-size: 11px; color: #785a49; text-transform: uppercase; font-weight: 600; }
@@ -459,7 +462,7 @@ async function initSite() {
   }
 }
 
-// 1. RENDU FICHE PAYS (4 boîtes : Chômage et Inflation côte à côte)
+// 1. RENDU FICHE PAYS (Lecture 100% dynamique depuis JSON)
 function renderFichePays() {
   const p = globalDataPays;
   
@@ -473,16 +476,15 @@ function renderFichePays() {
   document.getElementById('stats-eco').innerHTML = `
     <div class="stat-box"><div class="stat-label">PIB Total</div><div class="stat-number">${p.economie.pib}</div></div>
     <div class="stat-box"><div class="stat-label">PIB / Habitant</div><div class="stat-number">${p.economie.pib_habitant}</div></div>
-    <div class="stat-box">
-      <div class="stat-label">Chômage & Inflation</div>
-      <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 6px;">
+    <div class="stat-box" style="padding:10px 15px;">
+      <div style="display: flex; justify-content: space-around; align-items: center; height:100%;">
         <div style="flex: 1; text-align: center;">
-          <div style="font-size: 10px; color: #785a49; font-weight: 600;">CHÔMAGE</div>
+          <div class="stat-label">Chômage</div>
           <div class="stat-number" style="font-size: 16px; margin-top: 2px;">${p.economie.chomage}</div>
         </div>
-        <div style="width: 1px; height: 30px; background: var(--border-color);"></div>
+        <div style="width: 1px; height: 32px; background: var(--border-color);"></div>
         <div style="flex: 1; text-align: center;">
-          <div style="font-size: 10px; color: #785a49; font-weight: 600;">INFLATION</div>
+          <div class="stat-label">Inflation</div>
           <div class="stat-number" style="font-size: 16px; margin-top: 2px;">${p.economie.inflation}</div>
         </div>
       </div>
@@ -535,15 +537,19 @@ function renderChart(type, btn) {
         <div class="progress-label"><span>Part du Nucléaire Civil dans l'Électricité</span><span>${globalDataPays.energie.part_nucleaire}%</span></div>
         <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${globalDataPays.energie.part_nucleaire}%;"></div></div>
       </div>
-      <p style="margin-top:15px;"><strong>Secteurs Économiques Stratégiques :</strong> ${globalDataPays.secteurs_strategiques.join(' • ')}</p>
+      <p style="margin-top:15px;"><strong>Secteurs Économiques Stratégiques :</strong> ${globalDataPays.secteurs_strategiques ? globalDataPays.secteurs_strategiques.join(' • ') : ''}</p>
     `;
   } else if(type === 'finances') {
+    // Calcul dynamique à partir du texte du JSON (ex: "82,5 % du PIB")
+    let detteText = globalDataPays.economie.dette_publique || "82,5 % du PIB";
+    let detteValue = parseFloat(detteText.replace(',', '.')) || 82.5;
+
     html = `
       <div class="progress-group">
-        <div class="progress-label"><span>Dette Publique (en % du PIB)</span><span>${globalDataPays.economie.dette_publique}</span></div>
-        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:82.5%;"></div></div>
+        <div class="progress-label"><span>Dette Publique (en % du PIB)</span><span>${detteText}</span></div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${detteValue}%;"></div></div>
       </div>
-      <p style="margin-top:15px; font-size:13px; color:#555;">La dette souveraine du Royaume-Uni de Novarcis s'établit à <strong>82,5 % du PIB</strong>[cite: 2], témoignant d'une gestion budgétaire rigoureuse et encadrée par la Couronne.</p>
+      <p style="margin-top:15px; font-size:13px; color:#555;">La dette souveraine du Royaume-Uni de Novarcis s'établit à <strong>${detteText}</strong>.</p>
     `;
   }
 
