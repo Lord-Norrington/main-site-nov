@@ -299,6 +299,7 @@
           <button class="btn-action active" onclick="renderChart('religions', this)">Répartition Religieuse</button>
           <button class="btn-action" onclick="renderChart('economie', this)">Structure Économique</button>
           <button class="btn-action" onclick="renderChart('energie', this)">Mix Énergétique</button>
+          <button class="btn-action" onclick="renderChart('finances', this)">Dette & Finances Publiques</button>
         </div>
 
         <div id="chart-display-container" style="background:#faf6f0; padding:20px; border-radius:6px; border:1px solid var(--border-color);"></div>
@@ -319,13 +320,11 @@
 
         <select id="select-ville" class="city-select" onchange="displayCityData(this.value)"></select>
 
-        <!-- Message d'accueil par défaut avant sélection -->
         <div id="city-welcome-box" style="background:#faf6f0; border:1px solid var(--border-color); border-radius:6px; padding:30px; text-align:center; margin-top:10px;">
           <h3 style="font-family:'Cinzel',serif; color:var(--bordeaux-navy); margin-top:0;">Découpage Territorial du Royaume</h3>
           <p style="color:#64748b; font-size:14px; max-width:600px; margin:auto; line-height:1.6;">Le territoire de Novarcis est administré à travers ses grandes cités et municipalités majeures. Veuillez sélectionner une ville dans le menu déroulant ci-dessus pour afficher sa fiche détaillée, son blason et sa carte officielle.</p>
         </div>
 
-        <!-- Fiche de la ville (masquée par défaut) -->
         <div id="city-detail-box" style="display:none; text-align:left; background:#faf6f0; border:1px solid var(--border-color); border-radius:6px; padding:20px; margin-top:10px;">
           <div style="display:flex; flex-wrap:wrap; gap:25px; align-items:flex-start;">
             <div style="flex:1; min-width:280px; text-align:center;">
@@ -396,7 +395,7 @@
           </div>
           <div class="item-card" onclick="window.open('https://lord-norrington.github.io/portail-monarchie/', '_blank')">
             <img src="armoiries-royaume.png" class="item-card-img" onerror="this.src='armoiries-royaume.png'">
-            <div class="card-title">La Couronne</div>
+            <div class="card-title">La Couronne Royale</div>
             <div class="card-subtitle">Maison de Sa Majesté</div>
             <p style="font-size:12px; color:#64748b;">Actualités de la Famille Royale, ordonnances de la Couronne et cérémonies d'État.</p>
           </div>
@@ -460,7 +459,7 @@ async function initSite() {
   }
 }
 
-// 1. RENDU FICHE PAYS (4 boîtes économiques symétriques sans la monnaie textuelle)
+// 1. RENDU FICHE PAYS (4 boîtes : Chômage et Inflation côte à côte)
 function renderFichePays() {
   const p = globalDataPays;
   
@@ -474,7 +473,20 @@ function renderFichePays() {
   document.getElementById('stats-eco').innerHTML = `
     <div class="stat-box"><div class="stat-label">PIB Total</div><div class="stat-number">${p.economie.pib}</div></div>
     <div class="stat-box"><div class="stat-label">PIB / Habitant</div><div class="stat-number">${p.economie.pib_habitant}</div></div>
-    <div class="stat-box"><div class="stat-label">Chômage</div><div class="stat-number">${p.economie.chomage}</div></div>
+    <div class="stat-box">
+      <div class="stat-label">Chômage & Inflation</div>
+      <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 6px;">
+        <div style="flex: 1; text-align: center;">
+          <div style="font-size: 10px; color: #785a49; font-weight: 600;">CHÔMAGE</div>
+          <div class="stat-number" style="font-size: 16px; margin-top: 2px;">${p.economie.chomage}</div>
+        </div>
+        <div style="width: 1px; height: 30px; background: var(--border-color);"></div>
+        <div style="flex: 1; text-align: center;">
+          <div style="font-size: 10px; color: #785a49; font-weight: 600;">INFLATION</div>
+          <div class="stat-number" style="font-size: 16px; margin-top: 2px;">${p.economie.inflation}</div>
+        </div>
+      </div>
+    </div>
     <div class="stat-box"><div class="stat-label">Taux de Change</div><div class="stat-number" style="font-size:15px;">${p.economie.taux_change}</div></div>
   `;
 
@@ -524,6 +536,14 @@ function renderChart(type, btn) {
         <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${globalDataPays.energie.part_nucleaire}%;"></div></div>
       </div>
       <p style="margin-top:15px;"><strong>Secteurs Économiques Stratégiques :</strong> ${globalDataPays.secteurs_strategiques.join(' • ')}</p>
+    `;
+  } else if(type === 'finances') {
+    html = `
+      <div class="progress-group">
+        <div class="progress-label"><span>Dette Publique (en % du PIB)</span><span>${globalDataPays.economie.dette_publique}</span></div>
+        <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:82.5%;"></div></div>
+      </div>
+      <p style="margin-top:15px; font-size:13px; color:#555;">La dette souveraine du Royaume-Uni de Novarcis s'établit à <strong>82,5 % du PIB</strong>[cite: 2], témoignant d'une gestion budgétaire rigoureuse et encadrée par la Couronne.</p>
     `;
   }
 
