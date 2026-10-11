@@ -16,9 +16,9 @@
     "titre_principal": "Maison Ducale",
     "blason": "blason-lysange.png",
     "titulaire_actuel": "Alaric de Mireval",
-    "date_fondation": "XXXX",
+    "date_fondation": "800",
     "titres": "Duc de Lysange, Comte de Mireval",
-    "premier_titulaire": "XXXX",
+    "premier_titulaire": "Clovis Ier de Lysange",
     "histoire": "Histoire et origines illustres de la Maison de Lysange..."
   },
   {
@@ -26,10 +26,10 @@
     "titre_principal": "Maison Ducale",
     "blason": "blason-auron.png",
     "titulaire_actuel": "Armand du Plessis de Richelieu",
-    "date_fondation": "XXXX",
+    "date_fondation": "800",
     "titres": "Duc d'Auron",
-    "premier_titulaire": "XXXX",
-    "histoire": "Histoire de la Maison d'Auron..."
+    "premier_titulaire": "Chilpéric Ier d'Auron",
+    "histoire": "Le duché d’Auron, situé à l’ouest et au sud-ouest des îles novarciennes, est l’un des trois grands duchés historiques du royaume de Novarcis. Fondé en l’an 800 suite au don de Charlemagne, il constitue un pilier historique de la monarchie novarcienne, aux côtés des duchés de Rovère et du Grand-Duché de Lysange. Terre de tradition maritime et d’héritage celtique, Auron a développé au fil des siècles une identité singulière, marquée par son attachement à ses coutumes, à ses institutions ducales et à la Couronne. La maison du Plessis de Richelieu est liée à l’histoire du duché par la branche d’Auron, dont l’ascension est associée aux services rendus au souverain. Son titulaire actuel, Armand Jean du Plessis de Richelieu, perpétue cet héritage historique et la tradition de fidélité de sa maison envers le royaume de Novarcis."
   },
  
   {
@@ -37,9 +37,9 @@
     "titre_principal": "Maison Princière",
     "blason": "blason-dudarov.png",
     "titulaire_actuel": "Willial IV Dudarov",
-    "date_fondation": "XXXX",
+    "date_fondation": "1534",
     "titres": "Grand duc de Brundberg, Comte de Villefort",
-    "premier_titulaire": "XXXX",
+    "premier_titulaire": "Ivan de Novgorode",
     "histoire": "Histoire de la Maison Dudarov..."
   },
   {
