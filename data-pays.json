@@ -1,7 +1,7 @@
 {
   "general": {
     "nom_officiel": "Royaume-Uni de Novarcis",
-    "regime": "Monarchie constitutionnelle héréditaire",
+    "regime": "Monarchie constitutionnelle héréditaire de droit divin",
     "chef_etat": "Sa Majesté le Roi James Ier",
     "capitale": "Rovère-sur-Lys (6M hab.)",
     "superficie": "763 000 km²",
@@ -12,15 +12,15 @@
   "economie": {
     "monnaie": "Couronne novarcienne (₵)",
     "taux_change": "1 ₵ = 1,12 € = 1,29 $",
-    "pib": "7 110 Mds $",
-    "pib_habitant": "52 300 $",
+    "pib": "5 510 Mds ₵ (7110 Mds $)",
+    "pib_habitant": "40 500 ₵ (52 300 $)",
     "chomage": "5,1 %",
     "inflation": "2,6 %",
     "dette_publique": "82,5 % du PIB"
   },
   "militaire": {
-    "budget": "207 Mds $",
-    "actifs": "443 000 (+20 000 Gardes)",
+    "budget": "160 Mds ₵",
+    "actifs": "443 000 (+20 000 Gardes royaux)",
     "reservistes": "1 130 000",
     "porte_avions": "2",
     "ogives": "503"
