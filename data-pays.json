@@ -16,11 +16,11 @@
     "pib_habitant": "40 500 ₵",
     "chomage": "5,1 %",
     "inflation": "2,6 %",
-    "dette_publique": "82,5 %"
+    "dette_publique": "32,5 %"
   },
   "finances_publiques": {
-    "Dette Publique": 72.5,
-    "Marge Budgétaire": 27.5
+    "Dette Publique": 32.5,
+    "Marge Budgétaire": 67.5
   },
   "militaire": {
     "budget": "160 Mds ₵",
