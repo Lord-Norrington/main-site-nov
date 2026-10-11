@@ -18,6 +18,10 @@
     "inflation": "2,6 %",
     "dette_publique": "82,5 % du PIB"
   },
+  "finances_publiques": {
+    "Dette Publique": 82.5,
+    "Marge Budgétaire": 17.5
+  },
   "militaire": {
     "budget": "160 Mds ₵",
     "actifs": "443 000 (+20 000 Gardes royaux)",
