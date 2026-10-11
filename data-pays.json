@@ -16,11 +16,11 @@
     "pib_habitant": "40 500 ₵",
     "chomage": "5,1 %",
     "inflation": "2,6 %",
-    "dette_publique": "32,5 %"
+    "dette_publique": "82,5 %"
   },
   "finances_publiques": {
-    "Dette Publique": 32.5,
-    "Marge Budgétaire": 67.5
+    "Dette Publique": 82.5,
+    "Marge Budgétaire": 17.5
   },
   "militaire": {
     "budget": "160 Mds ₵",
@@ -43,7 +43,7 @@
     "Agriculture": 3.6
   },
   "energie": {
-    "part_nucleaire": 52
+    "part_nucleaire": 42
   },
   "secteurs_strategiques": [
     "Finance", "Aéronautique", "Automobile", "Défense", "Nucléaire civil & militaire", "Pharmacie", "Technologies & Ingénierie"
