@@ -330,7 +330,6 @@
           <div style="display:flex; flex-wrap:wrap; gap:25px; align-items:flex-start;">
             <div style="flex:1; min-width:280px; text-align:center;">
               <h4 style="font-family:'Cinzel',serif; color:var(--bordeaux-navy); margin-top:0;">Carte Officielle</h4>
-              <!-- Image non rognée grâce à object-fit: contain et height: auto -->
               <img id="city-map-img" src="" style="width:100%; height:auto; max-height:450px; object-fit:contain; border-radius:4px; cursor:zoom-in;" onclick="zoomImage(this.src)" onerror="this.src='armoiries-royaume.png'">
             </div>
             <div style="flex:1; min-width:280px;">
@@ -442,7 +441,6 @@ let globalDataPays = {};
 let globalDataVilles = [];
 let globalDataArmorial = [];
 
-// Chargement des fichiers JSON distants
 async function initSite() {
   try {
     const resPays = await fetch('data-pays.json');
@@ -462,7 +460,7 @@ async function initSite() {
   }
 }
 
-// 1. RENDU FICHE PAYS (Avec ajout de la carte Taux de Change)
+// 1. RENDU FICHE PAYS (4 boîtes économiques symétriques sans la monnaie textuelle)
 function renderFichePays() {
   const p = globalDataPays;
   
@@ -477,7 +475,6 @@ function renderFichePays() {
     <div class="stat-box"><div class="stat-label">PIB Total</div><div class="stat-number">${p.economie.pib}</div></div>
     <div class="stat-box"><div class="stat-label">PIB / Habitant</div><div class="stat-number">${p.economie.pib_habitant}</div></div>
     <div class="stat-box"><div class="stat-label">Chômage</div><div class="stat-number">${p.economie.chomage}</div></div>
-    <div class="stat-box"><div class="stat-label">Monnaie</div><div class="stat-number">${p.economie.monnaie}</div></div>
     <div class="stat-box"><div class="stat-label">Taux de Change</div><div class="stat-number" style="font-size:15px;">${p.economie.taux_change}</div></div>
   `;
 
@@ -533,7 +530,7 @@ function renderChart(type, btn) {
   container.innerHTML = html;
 }
 
-// 2. RENDU VILLES & MUNICIPALITés
+// 2. RENDU VILLES & MUNICIPALITÉS
 function renderVillesSelect() {
   const sel = document.getElementById('select-ville');
   sel.innerHTML = '<option value="">-- Choisissez une ville --</option>';
@@ -549,7 +546,6 @@ function displayCityData(index) {
     return;
   }
   
-  // Masquer le message d'accueil et afficher la fiche ville
   document.getElementById('city-welcome-box').style.display = 'none';
   document.getElementById('city-detail-box').style.display = 'block';
 
