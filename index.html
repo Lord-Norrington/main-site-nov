@@ -529,6 +529,7 @@ function renderChart(type, btn) {
           <div class="progress-label"><span>${k}</span><span>${sec[k]}%</span></div>
           <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${sec[k]}%;"></div></div>
         </div>
+         <p style="margin-top:15px;"><strong>Secteurs Économiques Stratégiques :</strong> ${globalDataPays.secteurs_strategiques ? globalDataPays.secteurs_strategiques.join(' • ') : ''}</p>
       `;
     }
   } else if(type === 'energie') {
@@ -537,7 +538,7 @@ function renderChart(type, btn) {
         <div class="progress-label"><span>Part du Nucléaire Civil dans l'Électricité</span><span>${globalDataPays.energie.part_nucleaire}%</span></div>
         <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${globalDataPays.energie.part_nucleaire}%;"></div></div>
       </div>
-      <p style="margin-top:15px;"><strong>Secteurs Économiques Stratégiques :</strong> ${globalDataPays.secteurs_strategiques ? globalDataPays.secteurs_strategiques.join(' • ') : ''}</p>
+     
     `;
   } else if(type === 'finances') {
     // Calcul dynamique à partir du texte du JSON (ex: "82,5 % du PIB")
