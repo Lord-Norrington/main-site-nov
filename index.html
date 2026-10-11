@@ -462,7 +462,7 @@ async function initSite() {
   }
 }
 
-// 1. RENDU FICHE PAYS (Lecture 100% dynamique depuis JSON)
+// 1. RENDU FICHE PAYS
 function renderFichePays() {
   const p = globalDataPays;
   
@@ -529,28 +529,26 @@ function renderChart(type, btn) {
           <div class="progress-label"><span>${k}</span><span>${sec[k]}%</span></div>
           <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${sec[k]}%;"></div></div>
         </div>
-         <p style="margin-top:15px;"><strong>Secteurs Économiques Stratégiques :</strong> ${globalDataPays.secteurs_strategiques ? globalDataPays.secteurs_strategiques.join(' • ') : ''}</p>
       `;
     }
+    html += `<p style="margin-top:15px;"><strong>Secteurs Économiques Stratégiques :</strong> ${globalDataPays.secteurs_strategiques ? globalDataPays.secteurs_strategiques.join(' • ') : ''}</p>`;
   } else if(type === 'energie') {
     html = `
       <div class="progress-group">
         <div class="progress-label"><span>Part du Nucléaire Civil dans l'Électricité</span><span>${globalDataPays.energie.part_nucleaire}%</span></div>
         <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${globalDataPays.energie.part_nucleaire}%;"></div></div>
       </div>
-     
     `;
   } else if(type === 'finances') {
-    // Calcul dynamique à partir du texte du JSON (ex: "82,5 % du PIB")
-    let detteText = globalDataPays.economie.dette_publique || "82,5 % du PIB";
-    let detteValue = parseFloat(detteText.replace(',', '.')) || 82.5;
+    let detteRaw = (globalDataPays.economie && globalDataPays.economie.dette_publique) ? globalDataPays.economie.dette_publique : "82,5 %";
+    let detteValue = parseFloat(detteRaw.replace(',', '.')) || 82.5;
 
     html = `
       <div class="progress-group">
-        <div class="progress-label"><span>Dette Publique (en % du PIB)</span><span>${detteText}</span></div>
+        <div class="progress-label"><span>Dette Publique (en % du PIB)</span><span>${detteRaw}</span></div>
         <div class="progress-bar-bg"><div class="progress-bar-fill" style="width:${detteValue}%;"></div></div>
       </div>
-      <p style="margin-top:15px; font-size:13px; color:#555;">La dette souveraine du Royaume-Uni de Novarcis s'établit à <strong>${detteText}</strong>.</p>
+      <p style="margin-top:15px; font-size:13px; color:#555;">La dette souveraine du Royaume-Uni de Novarcis s'établit à <strong>${detteRaw}</strong> du PIB.</p>
     `;
   }
 
