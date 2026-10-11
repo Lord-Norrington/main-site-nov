@@ -12,18 +12,18 @@
   "economie": {
     "monnaie": "Couronne novarcienne (₵)",
     "taux_change": "1 ₵ = 1,12 € = 1,29 $",
-    "pib": "5 510 Mds ₵ (7110 Mds $)",
-    "pib_habitant": "40 500 ₵ (52 300 $)",
+    "pib": "5 510 Mds ₵",
+    "pib_habitant": "40 500 ₵",
     "chomage": "5,1 %",
     "inflation": "2,6 %",
-    "dette_publique": "82,5 % du PIB"
+    "dette_publique": "82,5 %"
   },
   "finances_publiques": {
     "Dette Publique": 72.5,
     "Marge Budgétaire": 27.5
   },
   "militaire": {
-    "budget": "160 Mds ₵ (207 Mds $)",
+    "budget": "160 Mds ₵",
     "actifs": "443 000 (+20 000 Gardes royaux)",
     "reservistes": "1 130 000",
     "porte_avions": "2",
