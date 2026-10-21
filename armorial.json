@@ -81,5 +81,25 @@
     "titres": "Duc de Montmorency",
     "premier_titulaire": "Bouchard Ier de Bray",
     "histoire": "La maison de Montmorency trouve ses origines à l'aube de la féodalité, s'imposant dès le Xe siècle comme l'une des plus illustres dynasties du royaume de France. Surnommés « premiers barons chrétiens », les Montmorency lient indéfectiblement leur destin à la Couronne capétienne, s'illustrant sur les champs de bataille et dans la très haute administration du royaume à travers le titre prestigieux de connétable.Au fil des siècles, la lignée accumule terres, duchés et alliances prestigieuses, devenant une puissance incontournable en Île-de-France et en Europe. Son prestige culmine à la Renaissance avec Anne de Montmorency, grand maître et connétable de France, qui assoit définitivement le statut quasi-princier de sa famille.En traversant les crises politiques, les guerres de Religion et les remaniements de la haute noblesse européenne, les diverses branches de la maison perpétuent un héritage militaire et politique exceptionnel. Aujourd'hui encore, le nom de Montmorency demeure le symbole de la première noblesse française et de la fidélité aux institutions monarchiques."
+  },
+  {
+    "nom": "Famille Callaway",
+    "titre_principal": "Maison Ducale",
+    "blason": "blason-callaway.png",
+    "titulaire_actuel": "Lord Edward Callaway",
+    "date_fondation": "XXXX",
+    "titres": "Duc de Norcaster",
+    "premier_titulaire": "XXXX",
+    "histoire": "Histoire de la Famille Callaway..."
+  },
+  {
+    "nom": "Famille Swann",
+    "titre_principal": "Maison Seigneriale",
+    "blason": "blason-Swann.png",
+    "titulaire_actuel": "Lord James Swann",
+    "date_fondation": "XXXX",
+    "titres": "Comte de Westhaven",
+    "premier_titulaire": "XXXX",
+    "histoire": "Histoire de la Famille Swann..."
   }
 ]
