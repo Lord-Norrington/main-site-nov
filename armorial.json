@@ -43,24 +43,24 @@
     "histoire": "La maison Dudarov puise ses racines dans l'Orient slave en 1534, lorsque le duc Ivan, duc de Novgorod, fonde la lignée pour asseoir sa puissance foncière et militaire. Grandie à l'ombre du Kremlin, la dynastie voit ses premiers destins scellés par la géopolitique des steppes et de la mer Noire : en 1783, un remaniement diplomatique lui fait perdre son apanage initial au profit du titre de duc de Crimée. Contraints au repli stratégique vers l'Ouest, les Dudarov s'implantent au cœur du continent. Dès 1815, dans le sillage de la réorganisation de l'Europe post-napoléonienne, la couronne ducale glisse cette fois vers le titre de duc de Brundberg, intégrant la famille à la haute noblesse germanique. Pendant plus de deux siècles, les Dudarov incarnent la synthèse de la rigueur brundbergeoise et de l'héritage d'Ivan. Le tournant majeur survient en 2026 : le traité historique unissant le duché de Brundberg au Royaume Uni de Novarcis redessine les équilibres du royaume. En renonçant à leur ancien titre ducal, les Dudarov accèdent au rang supérieur de grands-ducs de Brundberg, affirmant leur rang parmi les plus grands pairs novarciens."
   },
   {
-    "nom": "Maison d'Autriche",
+    "nom": "Maison de Habsbourg",
     "titre_principal": "Maison Ducale",
     "blason": "blason-autriche.png",
-    "titulaire_actuel": "xxxx",
-    "date_fondation": "2026",
+    "titulaire_actuel": "Karl von Habsburg",
+    "date_fondation": "1020",
     "titres": "Duc d'Autriche",
-    "premier_titulaire": "xxxx",
-    "histoire": "Histoire de la branche novarcienne..."
+    "premier_titulaire": "Radbot de Habsbourg",
+    "histoire": "La maison de Habsbourg trouve ses origines vers l'an 1020, lorsque Radbot de Habsbourg fait édifier le château ancestral qui donnera son nom à l'une des plus illustres dynasties européennes. Issue de la noblesse médiévale du Saint-Empire romain germanique, la famille étend progressivement son influence en Suisse, puis en Autriche, où elle établit durablement son pouvoir à partir du XIIIe siècle. Au fil des siècles, les Habsbourg deviennent l'une des principales maisons souveraines d'Europe, accédant à la couronne impériale du Saint-Empire et réunissant sous leur autorité de vastes territoires d'Europe centrale. Leur puissance atteint un sommet sous Charles Quint, puis se prolonge à travers les branches espagnole et autrichienne de la dynastie. L'extinction de la lignée masculine historique au XVIIIe siècle entraîne une transition dynastique majeure : par le mariage de Marie-Thérèse de Habsbourg avec François-Étienne de Lorraine en 1736, naît la maison de Habsbourg-Lorraine, qui perpétue l'héritage impérial de ses prédécesseurs. Cette nouvelle lignée règne sur les possessions héréditaires des Habsbourg, puis sur l'Empire d'Autriche et la monarchie austro-hongroise, jusqu'à l'effondrement de cette dernière en 1918. Malgré la disparition de l'empire, la maison conserve son identité et sa continuité dynastique, incarnées en 2026 par Karl von Habsburg-Lothringen, chef de la maison. À la suite de la conquête de l'Autriche par le Royaume-Uni de Novarcis, le roi James Ier lui restitue officiellement le titre de duc d'Autriche. La maison retrouve ainsi une dignité territoriale au sein de la monarchie novarcienne, tout en conservant la mémoire de son héritage séculaire."
   },
   {
     "nom": "Maison de Hongrie",
     "titre_principal": "Maison ducale",
     "blason": "blason-hongrie.png",
-    "titulaire_actuel": "XXXX",
-    "date_fondation": "2026",
-    "titres": "Duc d'Autriche",
-    "premier_titulaire": "XXXX",
-    "histoire": "Origines de la Maison de Hongrie..."
+    "titulaire_actuel": "Joseph Karl von Habsburg-Lothringen",
+    "date_fondation": "1796",
+    "titres": "Duc de Hongrie",
+    "premier_titulaire": "Joseph de Habsbourg-Lorraine",
+    "histoire": "La branche palatine hongroise de la maison de Habsbourg-Lorraine trouve son origine en 1796, lorsque l'archiduc Joseph de Habsbourg-Lorraine est élu palatin de Hongrie, devenant le principal représentant du souverain dans le royaume. Fils de l'empereur Léopold II et frère de François Ier d'Autriche, il s'établit durablement en Hongrie et consacre une grande partie de sa vie au développement de son territoire. Favorisant l'essor de Buda et de Pest, il soutient les sciences, l'éducation, les infrastructures et la modernisation économique, acquérant une place particulière dans la mémoire historique hongroise. Sa longue administration, qui se poursuit jusqu'à sa mort en 1847, contribue à enraciner sa descendance dans la vie du royaume et à faire émerger une branche dynastique distincte au sein des Habsbourg-Lorraine. Son fils Étienne lui succède comme palatin, mais les bouleversements révolutionnaires de 1848 mettent fin à cette fonction traditionnelle. La branche poursuit néanmoins son existence à travers les générations suivantes, préservant son héritage hongrois malgré les transformations politiques du XIXe siècle et la disparition de la monarchie austro-hongroise en 1918. Ses membres demeurent les représentants d'une lignée qui associe l'ascendance impériale des Habsbourg à une histoire profondément liée à la Hongrie. En 2026, à la suite de la conquête de l'Autriche-Hongrie par le Royaume-Uni de Novarcis, le roi James Ier reconnaît officiellement le chef de cette branche en lui restituant le titre de duc de Hongrie. La branche palatine reçoit ainsi une nouvelle dignité territoriale dans l'ordre nobiliaire novarcien, assurant la continuité de son héritage historique au sein de la monarchie."
   },
   {
     "nom": "Famille de Bardfiels",
@@ -87,19 +87,39 @@
     "titre_principal": "Maison Ducale",
     "blason": "blason-callaway.png",
     "titulaire_actuel": "Lord Edward Callaway",
-    "date_fondation": "XXXX",
+    "date_fondation": "1302",
     "titres": "Duc de Norcaster",
-    "premier_titulaire": "XXXX",
-    "histoire": "Histoire de la Famille Callaway..."
+    "premier_titulaire": "Charles Callaway",
+    "histoire": "La maison Callaway trouve ses origines en 1302, lorsque Charles Callaway est élevé à la dignité de baron de Norcaster par le duc d’Auron. Établie dans cette région, la famille s’impose progressivement parmi les grandes lignées nobles du duché, développant son influence grâce à ses terres, à ses activités commerciales et à ses liens étroits avec le pouvoir ducal. Sa fidélité envers la maison régnante lui permet de gravir les échelons de la noblesse. Le 17 juin 1638 les Callaway sont élevés au rang de comtes, par le Duc d'Auron de l'époque, consacrant ainsi plusieurs siècles d’ascension familiale. Leur destin connaît une nouvelle consécration le 12 septembre 1724, lorsque le roi de Novarcis leur accorde le titre de duc, faisant de la maison Callaway l’une des grandes familles de la noblesse novarcienne. Malgré cette ascension, la lignée demeure profondément attachée à ses origines et à son héritage historique de Norcaster. Au XIXe siècle, un tournant majeur survient lorsque Lord Edward Callaway quitte Novarcis pour s'établir dans les provinces américaines du Royaume de France (qui deviendront plus tard le Royaume des États-Unis, en 1911). Installé dans le village frontalier de Colter, niché dans les montagnes, il y acquiert une influence locale considérable et devient maire de cette petite communauté, ouvrant une nouvelle page de l’histoire familiale outre-Atlantique. Au fil des générations, ses descendants développent leurs activités et étendent leur fortune, faisant progressivement de la maison Callaway une dynastie internationale dont la puissance repose désormais autant sur les affaires que sur son ancien prestige aristocratique. En 2026, le chef de la famille est de nouveau un Lord Edward Callaway, homonyme de son illustre ancêtre, mais appartenant à une génération bien différente. Résidant à Los Santos, il dirige le groupe Callaway, une immense entreprise internationale spécialisée dans le transport aérien et la logistique. Il contrôle également l’aéroport international de Los Santos et possède l’aéroport de Heathrow, situé à Rovère-sur-Lys. Milliardaire d’une richesse exceptionnelle, Lord Edward incarne l’évolution de la maison Callaway, passée d’une baronnie médiévale à une puissance économique mondiale, tout en conservant ses titres et son rang au sein de la noblesse de Novarcis."
   },
   {
     "nom": "Famille Swann",
     "titre_principal": "Maison Seigneriale",
     "blason": "blason-swann.png",
     "titulaire_actuel": "Lord James Swann",
-    "date_fondation": "XXXX",
+    "date_fondation": "1463",
     "titres": "Comte de Westhaven",
     "premier_titulaire": "XXXX",
-    "histoire": "Histoire de la Famille Swann..."
+    "histoire": "La maison Swann entre dans la noblesse novarcienne en 1463, lorsque le duc Edmond IV de Rovère récompense James Swann pour les services rendus à la Couronne et l’élève à la dignité de comte de Westhaven. Cette distinction marque la naissance de la lignée comtale des Swann, dont les descendants perpétuent le titre et le prestige au fil des siècles. Par son anoblissement, James Swann fonde une maison appelée à jouer un rôle majeur dans l’histoire maritime et coloniale du royaume. C’est toutefois en 1724 que la famille acquiert une renommée considérable, lorsque Lord Weatherby Swann, comte de Westhaven, est nommé par le roi Léopold XI gouverneur des Antilles de Novarcis. La fonction qui lui est confiée dépasse largement celle d’un gouverneur ordinaire : son autorité s’étend à plusieurs possessions de la Couronne dans les Caraïbes, dont il supervise les gouverneurs, l’administration, le commerce et la défense. Il devient ainsi le principal représentant du pouvoir royal dans l’ensemble de ces territoires, disposant d’une autorité exceptionnelle sur leurs affaires politiques et civiles. Léopold XI lui confie également la supervision politique de la Marine royale novarcienne dans les Caraïbes, faisant de lui un interlocuteur privilégié des commandants navals et le garant des intérêts stratégiques du royaume dans la région. En l’absence du souverain, le comte de Westhaven incarne de fait l’autorité royale outre-mer : sans porter la couronne, il exerce sur les possessions antillaises une influence telle qu’il est souvent considéré comme leur maître incontesté. Cette concentration de responsabilités fait de Weatherby Swann l’une des figures les plus puissantes de l’administration impériale novarcienne et inscrit durablement la maison Swann dans l’histoire des Antilles."
+  },
+  {
+    "nom": "Famille de Montclair",
+    "titre_principal": "Maison Seigneriale",
+    "blason": "blason-montclair.png",
+    "titulaire_actuel": "Lord Adrien de Montclair",
+    "date_fondation": "XXXX",
+    "titres": "Comte de Montclair",
+    "premier_titulaire": "XXXX",
+    "histoire": "Histoire de la Famille de Montclair..."
+  },
+  {
+    "nom": "Famille Norrington",
+    "titre_principal": "Maison Seigneriale",
+    "blason": "blason-norrington.png",
+    "titulaire_actuel": "James Ier Norrington",
+    "date_fondation": "1269",
+    "titres": "Comte de Dunvarn",
+    "premier_titulaire": "Lord Duncan Norrington",
+    "histoire": "Histoire de la Famille Norrington..."
   }
 ]
