@@ -121,5 +121,45 @@
     "titres": "Comte de Dunvarn, Roi de Novarcis",
     "premier_titulaire": "Lord Duncan Norrington",
     "histoire": "La maison Norrington entre dans la noblesse novarcienne en 1269, lorsque le duc de Lysange anoblit Duncan Norrington et lui accorde le titre de comte de Dunvarn. Par cette distinction, Duncan devient le fondateur de la lignée comtale des Norrington, dont les descendants perpétuent le nom et le rang au fil des générations. Longtemps reconnue pour son ancienneté et sa fidélité aux grandes maisons du royaume, la famille acquiert une importance historique particulière grâce à l’union de Lord Eugene Norrington avec Louise Auguste de Bourbon de Rovère, duchesse régente de Novarcis. Ce mariage rapproche durablement les Norrington de la maison souveraine de Rovère. De cette union naît Théodore III, futur roi de Novarcis, faisant de Lord Eugene Norrington le père d’un souverain et inscrivant sa descendance dans la lignée royale. Par cette alliance dynastique, la maison Norrington dépasse son statut de grande famille comtale pour occuper une place singulière dans l’histoire de la monarchie novarcienne. Son nom demeure ainsi associé à la maison de Rovère, non seulement par le mariage de Lord Eugene, mais également par la naissance de celui qui accédera au trône sous le nom de Théodore III."
+  },
+  {
+    "nom": "Famille Beckett",
+    "titre_principal": "Maison Seigneriale",
+    "blason": "blason-beckett.png",
+    "titulaire_actuel": "Lord Cutler Beckett",
+    "date_fondation": "1692",
+    "titres": "Marquis de Montserrat",
+    "premier_titulaire": "Sir William Beckett",
+    "histoire": "La maison Beckett entre dans la noblesse novarcienne en 1692, lorsque le roi accorde à Sir William Beckett le titre de marquis de Montserrat, en récompense de son implication dans le commerce maritime et du soutien apporté à la Couronne. D’abord enrichie par les échanges transocéaniques, la famille développe progressivement ses intérêts dans les possessions d’outre-mer et s’impose parmi les lignées associées à l’expansion commerciale de Novarcis. La maison connaît son apogée avec Lord Cutler Beckett, qui prend la direction de la Compagnie novarcienne des Indes orientales en 1730, par charte royale. Sous son autorité, la Compagnie étend considérablement son influence dans les Caraïbes et aux Indes, contrôlant des comptoirs, organisant les échanges commerciaux et défendant les intérêts économiques du royaume. Par ses liens avec la Couronne et son influence sur les affaires maritimes, Cutler Beckett devient un acteur majeur de la politique coloniale novarcienne. Son action assure à la maison Beckett une renommée durable, associant le marquisat de Montserrat à la puissance commerciale et navale du royaume. En 2026, le titre est porté par un autre Lord Cutler Beckett, héritier d’une lignée dont l’histoire demeure étroitement liée à celle de la Compagnie et à l’expansion de Novarcis outre-mer."
+  },
+  {
+    "nom": "Famille Stark",
+    "titre_principal": "Maison Seigneriale",
+    "blason": "blason-stark.png",
+    "titulaire_actuel": "Lord Jacob Stark",
+    "date_fondation": "895",
+    "titres": "Comte de Winterfell",
+    "premier_titulaire": "Eddard Sark",
+    "histoire": "La maison Stark compte parmi les plus anciennes lignées nobles de Novarcis. Ses origines remontent à 895, lorsque Eddard Stark est élevé au rang de comte de Winterfell par le duc de Lysange, en reconnaissance de son autorité sur les terres septentrionales et des services rendus à sa maison. Établie au château de Winterfell, la famille acquiert au fil des siècles une réputation de rigueur, de loyauté et d’attachement à ses terres. Son autorité s’enracine dans les traditions du Nord, où les hivers rigoureux et l’éloignement des centres de pouvoir ont façonné une noblesse indépendante et profondément attachée à l’honneur. Au cours du Moyen Âge, les Stark consolident leur influence en administrant leurs domaines, en protégeant les populations locales et en entretenant des relations parfois difficiles avec les grandes maisons du royaume. Leur fidélité au duc de Lysange leur permet de préserver leurs possessions et leur rang à travers les conflits et les changements dynastiques. Winterfell devient progressivement le symbole de leur autorité et le siège d’une lignée dont l’ancienneté dépasse celle de nombreuses familles princières. En 2026, la maison Stark demeure établie à Winterfell et conserve son prestige historique. Jacob Stark, actuel comte de Winterfell, perpétue l’héritage de ses ancêtres et veille à la préservation du château et des terres familiales. Héritiers de plus de onze siècles d’histoire, les Stark restent associés à la permanence des traditions septentrionales, à la fidélité à la Couronne et à la défense de leur patrimoine."
+  },
+  {
+    "nom": "Famille de Villefort",
+    "titre_principal": "Maison Seigneriale",
+    "blason": "blason-villefort-maison.png",
+    "titulaire_actuel": "Famille éteinte",
+    "date_fondation": "1608",
+    "titres": "Marquis de Villefort",
+    "premier_titulaire": "Guillaume de Villefort",
+    "histoire": "La maison de Villefort trouve ses origines avec Antoine Villefort (1458–1519), marchand enrichi dans le négoce des draps et des métaux. En 1487, il obtient du duc de Rovère une charte de fondation urbaine donnant naissance à la ville de Villefort. Son descendant Guillaume de Villefort (1561–1634) se distingue par la constitution d’une bibliothèque de 8 000 volumes et obtient le titre de comte en 1608 pour services rendus à la Couronne ducale. La famille atteint son apogée avec Maximilien de Villefort (1655–1722), général victorieux et bâtisseur de Vaux-le-Villefort, élevé au rang de marquis en 1709 par le roi de Novarcis. Au XIXe siècle, Théodore de Villefort (1801–1878) préserve le patrimoine familial en investissant dans l’industrie et la politique parlementaire. Le blason familial, palé d’azur et d’argent, au lion de sable brochant sur le tout, rappelle les origines marchandes de la maison et sa gloire militaire. Cinq siècles après ses débuts, la lignée s’achève avec Charles de Villefort, marquis de Villefort, qui décède en 2026 sans héritier direct ni collatéral. Sa mort entraîne l’extinction définitive de la maison, dont le nom demeure toutefois inscrit dans l’histoire novarcienne."
+  },
+  {
+    "nom": "Famille Crawley",
+    "titre_principal": "Maison Seigneriale",
+    "blason": "blason-crawley.png",
+    "titulaire_actuel": "Lord James Matthew Crawley",
+    "date_fondation": "1772",
+    "titres": "Comte de Grantham",
+    "premier_titulaire": "James Crawley"
+    "histoire": "La maison Crawley entre dans la haute noblesse en 1772, lorsque James Crawley devient le premier comte de Grantham. Au fil des générations, la famille établit son siège au château de Dunwether, vaste domaine qui devient le symbole de son prestige et de son influence dans le duché de Rovère, puis dans le royaume de Novarcis. La famille connaît une période décisive avec Robert Crawley, septième comte de Grantham, qui épouse Cora Levinson, héritière d’une riche famille américaine. Sa fortune contribue à préserver le domaine face aux difficultés financières de l’aristocratie. De leur union naissent Mary, Edith et Sybil. La succession est bouleversée par la disparition de James Crawley, héritier présomptif, et de son fils Patrick dans le naufrage du Titanic. Le titre revient alors à Matthew Crawley, un cousin éloigné, dont le mariage avec Lady Mary unit les deux branches de la famille. Au fil des générations, les Crawley traversent les bouleversements du XXe siècle tout en préservant leur patrimoine. En 2026, après le décès de Robert, de Matthew et de George Crawley, le titre de comte de Grantham revient à James Matthew Crawley, fils de George et arrière-petit-fils de Robert. Âgé de 32 ans, il devient le nouveau chef de la maison et l’héritier du château de Dunwether. Confronté aux défis économiques de la noblesse contemporaine, il s’attache à préserver le domaine familial et à maintenir l’héritage des Crawley, transmis depuis plus de deux siècles.",
   }
 ]
